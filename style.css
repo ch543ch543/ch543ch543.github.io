@@ -1,0 +1,68 @@
+body,
+html {
+  background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.starting-page > .wrapper {
+  height:100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.starting-page > .wrapper > .title {
+  height:100px;
+}
+
+h1 {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 4em;
+  color:white;
+  padding: 5px 20px;
+}
+
+.btn {
+  background-color: rosybrown;
+  border-color: rosybrown;
+  font-weight: 300;
+  padding: 10px 20px;
+  margin-top: 5rem;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+
+.btn:hover{
+  background-color: #a67e7e;
+  border-color:  #a67e7e;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}
+
+.btn:active{
+  background-color: #a67e7e;
+  border-color:  #a67e7e;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+
+
